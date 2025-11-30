@@ -1,2 +1,65 @@
-# STOX-Supermarket-Management-System-CPP
-A full OOP-based C++ Supermarket Management System featuring product inventory control, employee management, transaction processing, Code39 barcode generation, receipt printing, and CSV file operations. Includes custom exceptions, polymorphism, and a colorful interactive CLI. Ideal for OOP learning and university projects.
+STOX Supermarket Management System
+==================================
+
+A console-based C++ application demonstrating a complete supermarket workflow using object-oriented programming. 
+The system manages product inventory, employees, transactions, barcode generation (Code39), and CSV-based data storage.
+It uses inheritance, polymorphism, abstract classes, and custom exceptions to structure the application.
+
+CORE COMPONENTS
+---------------
+
+PRODUCT MODULE
+- Product creation with auto-increment IDs
+- Stock update and validation
+- Code39 barcode generation in PBM format
+- CSV serialization/deserialization
+
+EMPLOYEE MODULE
+- Manager and Cashier classes derived from Employee
+- Abstract salary calculation method
+- Cashier transaction counter affecting salary
+
+TRANSACTION MODULE
+- Item list with quantity validation and stock deduction
+- Transaction queue for history
+- Receipt generation as formatted text output
+- Timestamping using <ctime> utilities
+
+ERROR HANDLING
+Custom exceptions:
+- InvalidPriceException
+- InvalidQuantityException
+- InsufficientStockException
+- ProductNotFoundException
+- FileOperationException
+
+BUILD INSTRUCTIONS
+------------------
+Compile with any modern C++ compiler:
+
+    g++ supermarket.cpp -o supermarket
+    ./supermarket
+
+DATA FILES
+----------
+The system automatically creates:
+
+products.csv    Product storage
+employees.csv   Employee storage
+receipt_*.txt   Generated receipts
+*.pbm           Generated barcodes
+
+TECHNICAL HIGHLIGHTS
+--------------------
+- Uses STL containers: map, vector, queue
+- Applies RAII for cleanup in destructors
+- Uses ANSI escape codes for terminal styling
+- Implements polymorphic behavior for salary calculation
+- Handles I/O with <fstream> and CSV parsing using stringstream
+
+======================================================================================
+ SSSSS  TTTTTTT  OOOOO  XX    XX
+SS        TTT   OO   OO  XX  XX 
+ SSSSS    TTT   OO   OO   XXXX  
+     SS   TTT   OO   OO  XX  XX 
+ SSSSS    TTT    OOOO0  XX    XX
