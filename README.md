@@ -57,9 +57,4 @@ TECHNICAL HIGHLIGHTS
 - Implements polymorphic behavior for salary calculation
 - Handles I/O with <fstream> and CSV parsing using stringstream
 
-======================================================================================
- SSSSS  TTTTTTT  OOOOO  XX    XX
-SS        TTT   OO   OO  XX  XX 
- SSSSS    TTT   OO   OO   XXXX  
-     SS   TTT   OO   OO  XX  XX 
- SSSSS    TTT    OOOO0  XX    XX
+
