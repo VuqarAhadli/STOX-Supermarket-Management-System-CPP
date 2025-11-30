@@ -13,8 +13,7 @@
 
 using namespace std;
 
-// colour macros for cli styling (may not work in online compilers but in gdb it works)
-#define RESET   "\033[0m" /* for returning to default colour*/
+#define RESET   "\033[0m" 
 #define BOLD    "\033[1m"
 #define RED     "\033[31m"
 #define GREEN   "\033[32m"
