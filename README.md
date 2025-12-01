@@ -37,8 +37,8 @@ BUILD INSTRUCTIONS
 ------------------
 Compile with any modern C++ compiler:
 
-    g++ supermarket.cpp -o supermarket
-    ./supermarket
+    g++ STOX.cpp -o STOX
+    ./STOX
 
 DATA FILES
 ----------
