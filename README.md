@@ -12,7 +12,7 @@ PRODUCT MODULE
 - Product creation with auto-increment IDs
 - Stock update and validation
 - Code39 barcode generation in PBM format
-- CSV serialization/deserialization
+- CSV serialisation/deserialisation
 
 EMPLOYEE MODULE
 - Manager and Cashier classes derived from Employee
